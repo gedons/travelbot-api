@@ -1,0 +1,197 @@
+[
+    {
+        "destination": "Paris",
+        "packages": [
+            {
+                "name": "Romantic Getaway",
+                "prices": [                    
+                    {
+                        "amenities": "dinner, cruise, games",
+                        "price": 3000,
+                        "details": "A romantic trip to Paris including a dinner cruise on the Seine.",
+                        "imageUrl": "https://www.wanderingsunsets.com/wp-content/uploads/2020/10/Romantic-Paris-Weekend-Featured-Image.jpg"
+                    },
+                    {
+                        "amenities": "skydiving, swimming pool",
+                        "price": 2000,
+                        "details": "A romantic trip to Paris including a dinner cruise and sky diving.",
+                        "imageUrl": "https://i.pinimg.com/736x/fc/a3/bc/fca3bcddbc76a82e1f67e6070574fe70.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Family Vacation",
+                "prices": [                    
+                    {
+                        "amenities": "disney land, cruise, games",
+                        "price": 3000,
+                        "details": "A family-friendly tour of Paris with visits to Disneyland",
+                        "imageUrl": "https://i.pinimg.com/736x/16/48/ba/1648ba3221b5d6db016143551529d753.jpg"
+                    },
+                    {
+                        "amenities": "skydiving, swimming pool",
+                        "price": 2000,
+                        "details": "A family trip to Paris including a dinner cruise and sky diving.",
+                        "imageUrl": "https://i.pinimg.com/736x/e2/10/71/e21071ab4e5314d0c995a97df717aec2.jpg"
+                    }
+                ]         
+            }
+        ]
+    },
+    {
+        "destination": "New York",
+        "packages": [
+            {
+                "name": "City Explorer",
+                "prices": [                    
+                    {
+                        "amenities": "museum, city tour, games",
+                        "price": 2500,
+                        "details": "Explore the sights and sounds of New York City.",
+                        "imageUrl": "https://i.pinimg.com/564x/3b/78/c8/3b78c896ebcae02e1a27e1395ddbca50.jpg"
+                    },
+                    {
+                        "amenities": "skydiving, swimming pool",
+                        "price": 2000,
+                        "details": "Explore the sights and sounds of New York City with sky diving.",
+                        "imageUrl": "https://i.pinimg.com/originals/e4/17/6a/e4176ae066051099279a883e30ee2214.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Luxury Stay",
+                "prices": [                    
+                    {
+                        "amenities": "luxury hotel, city tour, spa",
+                        "price": 4000,
+                        "details": "Enjoy a luxurious stay in New York with 5-star accommodations.",
+                        "imageUrl": "https://i.pinimg.com/originals/2b/2a/d1/2b2ad1bdcd75623299f87166bea89e63.jpg"
+                    },
+                    {
+                        "amenities": "spa, swimming pool",
+                        "price": 3000,
+                        "details": "Enjoy a luxurious stay in New York with spa and swimming pool.",
+                        "imageUrl": "https://i.pinimg.com/736x/10/80/c8/1080c83f50f9b2ae62ba80b560126e26.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "Rome",
+        "packages": [
+            {
+                "name": "Historical Tour",
+                "prices": [                    
+                    {
+                        "amenities": "museum, city tour, games",
+                        "price": 2500,
+                        "details": "Explore the historical sites of Rome.",
+                        "imageUrl": "https://i.pinimg.com/736x/23/d6/fd/23d6fd6e65b2bd62f1cac43378801f8e.jpg"
+                    },
+                    {
+                        "amenities": "skydiving, swimming pool",
+                        "price": 2000,
+                        "details": "Explore the historical sites of Rome with sky diving.",
+                        "imageUrl": "https://i.pinimg.com/736x/55/68/cc/5568cc69c3f2dd9746f259e5cc383e23.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Luxury Stay",
+                "prices": [                    
+                    {
+                        "amenities": "luxury hotel, city tour, spa",
+                        "price": 4000,
+                        "details": "Enjoy a luxurious stay in Rome with 5-star accommodations.",
+                        "imageUrl": "https://i.pinimg.com/736x/79/db/7b/79db7bd536d18d9b76841fbf5175cb13.jpg"
+                    },
+                    {
+                        "amenities": "spa, swimming pool",
+                        "price": 3000,
+                        "details": "Enjoy a luxurious stay in Rome with spa and swimming pool.",
+                        "imageUrl": "https://i.pinimg.com/736x/7a/4e/94/7a4e942811e2a35b6984031877a55e3b.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "Tokyo",
+        "packages": [
+            {
+                "name": "City Explorer",
+                "prices": [                    
+                    {
+                        "amenities": "museum, city tour, games",
+                        "price": 2500,
+                        "details": "Explore the sights and sounds of Tokyo.",
+                        "imageUrl": "https://i.pinimg.com/736x/a3/a7/a4/a3a7a4dc7450cd879fbc547eb172af7d.jpg"
+                    },
+                    {
+                        "amenities": "skydiving, swimming pool",
+                        "price": 2000,
+                        "details": "Explore the sights and sounds of Tokyo with sky diving.",
+                        "imageUrl": "https://i.pinimg.com/736x/51/e1/a1/51e1a12517e95725590d3a4b1a7575d7.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Luxury Stay",
+                "prices": [                    
+                    {
+                        "amenities": "luxury hotel, city tour, spa",
+                        "price": 4000,
+                        "details": "Enjoy a luxurious stay in Tokyo with 5-star accommodations.",
+                        "imageUrl": "https://i.pinimg.com/originals/8c/84/80/8c8480c27e0fef3e2a5c8e7c345e6d0c.jpg"
+                    },
+                    {
+                        "amenities": "spa, swimming pool",
+                        "price": 3000,
+                        "details": "Enjoy a luxurious stay in Tokyo with spa and swimming pool.",
+                        "imageUrl": "https://i.pinimg.com/736x/15/76/1e/15761e2b1898acfd3cd0d115f820e6ee.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "Sydney",
+        "packages": [
+            {
+                "name": "City Explorer",
+                "prices": [                    
+                    {
+                        "amenities": "museum, city tour, games",
+                        "price": 2500,
+                        "details": "Explore the sights and sounds of Sydney.",
+                        "imageUrl": "https://i.pinimg.com/736x/42/a4/9d/42a49dcb7576b99a27e4d20960101da2.jpg"
+                    },
+                    {
+                        "amenities": "skydiving, swimming pool",
+                        "price": 2000,
+                        "details": "Explore the sights and sounds of Sydney with sky diving.",
+                        "imageUrl": "https://i.pinimg.com/736x/d8/c9/ca/d8c9ca9236c561ed5e1eb4dc4df17fa6.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Luxury Stay",
+                "prices": [                    
+                    {
+                        "amenities": "luxury hotel, city tour, spa",
+                        "price": 4000,
+                        "details": "Enjoy a luxurious stay in Sydney with 5-star accommodations.",
+                        "imageUrl": "https://i.pinimg.com/736x/c4/32/bf/c432bf99d40998c44e4d13d15bc8a9c0.jpg"
+                    },
+                    {
+                        "amenities": "spa, swimming pool",
+                        "price": 3000,
+                        "details": "Enjoy a luxurious stay in Sydney with spa and swimming pool.",
+                        "imageUrl": "https://i.pinimg.com/736x/21/dd/18/21dd18f2c9dfbb110e0dd7af0c9235ed.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]
