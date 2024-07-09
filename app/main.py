@@ -27,6 +27,14 @@ def chat():
             current_state['step'] = 'preferences'
         else:
             response = "Hello! How can I assist you with your travel plans today?"
+            current_state['step'] = 'initial'
+
+    elif current_state.get('step') == 'initial':
+        if any(phrase in user_message.lower() for phrase in ["recommend a destination", "where should i go", "suggest a travel destination"]):
+            response = "Great! Let's start by exploring some travel destinations. What are your preferences? beaches, Adventure trip, Cultural experience, Surprise me"
+            current_state['step'] = 'preferences'
+        else:
+            response = "I can help you plan your travels. Please type 'recommend a destination' or 'where should I go' to get started."
 
     elif current_state.get('step') == 'preferences':
         preferences = ["beaches", "adventure trip", "cultural experience", "surprise me"]
@@ -46,7 +54,7 @@ def chat():
             if 1 <= destination_num <= len(destinations_data):
                 selected_destination = destinations_data[destination_num - 1]
                 current_state['destination'] = selected_destination
-                response = "Excellent choice! Let's start by providing your departure and arrival travel dates."
+                response = "Excellent choice! Let's start by providing your departure and arrival travel dates. eg(departure date) to (arrival date)"
                 current_state['step'] = 'travel_dates'
             else:
                 response = "Please choose a valid destination number from the list."
@@ -61,13 +69,13 @@ def chat():
 
     elif current_state.get('step') == 'travel_dates':
         try:
-            dates = user_message.split(" and ")
+            dates = user_message.split(" to ")
             if len(dates) == 2:
                 departure_date = parse_date(dates[0])
                 arrival_date = parse_date(dates[1])
                 current_state['departure_date'] = departure_date
                 current_state['arrival_date'] = arrival_date
-                response = "Perfect! Let's explore lodging options. When do you plan to check in and check out?"
+                response = "Perfect! Let's explore lodging options. When do you plan to check in and check out? eg(checkin date) to (checkout date)"
                 current_state['step'] = 'lodging_dates'
             else:
                 response = "Please provide your travel dates in the format: [departure_date] to [arrival_date]"
@@ -76,7 +84,7 @@ def chat():
 
     elif current_state.get('step') == 'lodging_dates':
         try:
-            dates = user_message.split(" and ")
+            dates = user_message.split(" to ")
             if len(dates) == 2:
                 check_in_date = parse_date(dates[0])
                 check_out_date = parse_date(dates[1])
@@ -85,7 +93,7 @@ def chat():
                 response = "Thank you for providing your accommodation dates. What type of lodging are you interested in? (e.g., hotel, resort, Airbnb)"
                 current_state['step'] = 'lodging_type'
             else:
-                response = "Please provide your lodging dates in the format: [check_in_date] and [check_out_date]"
+                response = "Please provide your lodging dates in the format: [check_in_date] to [check_out_date]"
         except ValueError:
             response = "Please provide valid lodging dates."
 
@@ -130,7 +138,7 @@ def chat():
                 amount = current_state['price']
                 brand = "Travel Package"  # Replace with a meaningful description
                 payment_link = initialize_paystack_transaction(email, amount, brand)
-                response = f"Please proceed with the payment payment method: {payment_link}"
+                response = f"Please proceed with the payment: {payment_link}"
                 current_state = {}  # Clear current state after successful payment initiation
             except Exception as e:
                 response = f"An error occurred while initializing the payment: {str(e)}"
