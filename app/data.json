@@ -36,7 +36,9 @@
                     }
                 ]         
             }
-        ]
+        ],
+        "imageUrl": "https://www.wanderingsunsets.com/wp-content/uploads/2020/10/Romantic-Paris-Weekend-Featured-Image.jpg",
+        "price": 2000
     },
     {
         "destination": "New York",
@@ -75,7 +77,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "imageUrl": "https://i.pinimg.com/564x/3b/78/c8/3b78c896ebcae02e1a27e1395ddbca50.jpg",
+        "price": 1000
     },
     {
         "destination": "Rome",
@@ -114,7 +118,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "imageUrl": "https://i.pinimg.com/736x/23/d6/fd/23d6fd6e65b2bd62f1cac43378801f8e.jpg",
+        "price": 3000
     },
     {
         "destination": "Tokyo",
@@ -153,7 +159,9 @@
                     }
                 ]
             }
-        ]
+        ],
+         "imageUrl": "https://i.pinimg.com/736x/a3/a7/a4/a3a7a4dc7450cd879fbc547eb172af7d.jpg",
+         "price": 2000
     },
     {
         "destination": "Sydney",
@@ -192,6 +200,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "imageUrl": "https://i.pinimg.com/736x/42/a4/9d/42a49dcb7576b99a27e4d20960101da2.jpg",
+        "price": 4000
     }
 ]
